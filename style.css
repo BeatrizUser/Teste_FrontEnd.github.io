@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400&display=swap');
+body{
+    background-color: rgb(6, 113, 117);
+    font-family: 'Roboto', sans-serif;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 3s all ease;
+}
+.card_veteranos , .card_novatos{
+    background-color: white;
+    padding: 3px;
+    border-radius: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    transition: 3s all ease;
+}
+.btn_name{
+    color: #fff;
+    background-color: rgb(6, 113, 117);
+    font-weight: bold;
+    width: 85%;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 10px;
+}
+.frase{
+    color: rgb(6, 113, 117);
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-align: center;
+}
+.btn_atualizar{
+    margin-top: 40px;
+    width: 200px;
+    height: 56px;
+    border-radius: 10px;
+    border: none;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: rgb(6, 113, 117);
+}
+.title{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-bottom: 0px;
+}
+#data{
+    visibility: hidden;
+}
